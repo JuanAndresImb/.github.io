@@ -1,75 +1,101 @@
 /* Typography */
 
 html {
-	font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: center;
+  text-align: center;
+  color: black;
+  background-image: url(https://i.pinimg.com/originals/51/a7/c8/51a7c893c94b7b54ef193ce96546fe59.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  font-family: "Poetsen One";
+  font-weight: bold;
 }
 
 @media (min-width: 576px) {
-	html {
-		font-size: 14px;
-	}
+  html {
+    font-size: 14px;
+  }
 }
 
 @media (min-width: 768px) {
-	html {
-		font-size: 16px;
-	}
+  html {
+    font-size: 16px;
+  }
 }
 
 @media (min-width: 992px) {
-	html {
-		font-size: 18px;
-	}
+  html {
+    font-size: 18px;
+  }
 }
 
 @media (min-width: 1200px) {
-	html {
-		font-size: 20px;
-	}
+  html {
+    font-size: 20px;
+  }
 }
 
 .icons-social i {
-	font-size: 3em;
+  font-size: 3em;
 }
 
 /* Custom Styles */
 
 main {
-	display: flex;
-	flex-direction: column;
-	min-height: 100vh;
-	justify-content: center;
-	padding: 0 30px;
-	text-align: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content:center;
+  padding: 0 30px;
+  text-align: center;
+  color: rgb(255, 255, 255);
 }
 
 main > .intro {
-	font-family: 'Reem Kufi', sans-serif;
-	font-size: 3.75em;
-	font-weight: 600;
+  font-family: "Reem Kufi", sans-serif;
+  font-size: 3.75em;
+  font-weight: 600;
+  color: aliceblue;
+  opacity: 80%;
 }
 
 main > .tagline {
-	font-size: 1.5rem;
-	margin: 1.5rem 0;
-	font-weight: 100;
+  font-size: 2.0rem;
+  margin: 2.0rem 0;
+  font-weight: 100;
+  opacity: 80%;
+  padding: 20px;
+}
+.icons-social a svg path{
+	fill: aliceblue;
 }
 
 .icons-social i {
-	padding: 10px;
+  padding: 20px;
+  color: aliceblue;
+  opacity: 80%;
+  
+  
+
 }
 
 .icons-social a {
-  text-decoration: none;
+  text-decoration:solid;
 }
 
 .devto {
-	margin-bottom: -0.20rem;
+  margin-bottom: -0.2rem;
 }
 
 .devto svg {
-	margin-bottom: -0.20rem;
-	margin-left: 0.675rem;;
-	width: 2.65rem;
-	height: 2.65rem;
+  margin-bottom: -0.2rem;
+  margin-left: 0.675rem;
+  width: 2.65rem;
+  height: 2.65rem;
 }
